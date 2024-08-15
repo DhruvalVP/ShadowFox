@@ -9,4 +9,3 @@ time_taken = time_taken * min_1
 speed = int(street_len/time_taken)  # calculate speed to integer value
 
 print(f"Speed is {speed} meters per second.")
-print("Hello World")
