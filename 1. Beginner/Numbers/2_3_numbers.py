@@ -2,6 +2,9 @@
 
 street_len = 490    # meter
 time_taken = 7  # minutes
+min_1 = 60 # 1 minute = 60 seconds
+
+time_taken = time_taken * min_1
 
 speed = int(street_len/time_taken)  # calculate speed to integer value
 
