@@ -2,3 +2,6 @@
 
 pi = (22/7)     # Variable named "pi" has value (22/7)
 print(type(pi))     # Type of variable "pi" = Float
+
+# ----- Exit Program ----- #
+exit()

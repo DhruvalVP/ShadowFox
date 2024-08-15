@@ -9,3 +9,6 @@ result = formated_string(145, 'o')
 
 #-------- Printing formated string --------#
 print(result)
+
+# ----- Exit Program ----- #
+exit()

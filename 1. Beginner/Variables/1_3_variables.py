@@ -7,3 +7,6 @@ T = 3    # time = 3 years
 simple_interest = (P*R*T)/100   # Calculate Simple Interest
 
 print(f"Simple Interest is {simple_interest}")
+
+# ----- Exit Program ----- #
+exit()

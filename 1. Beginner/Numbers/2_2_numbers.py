@@ -15,3 +15,6 @@ per_square = 1.4
 total_water = per_square*pond_area
 
 print(f"The total amount of water in the pond is {total_water} liters.")
+
+# ----- Exit Program ----- #
+exit()
