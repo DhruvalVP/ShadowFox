@@ -14,7 +14,7 @@ consecutive_6s = 0
 prev_roll = 0
 for _ in range(num_rolls):
     # ----- Simulate a dice roll ----- #
-    
+
     dice_roll = random.randint(1, 6)
     # dice_roll = int(input("Enter dice number: "))
     print(dice_roll, end=" ")
@@ -22,14 +22,14 @@ for _ in range(num_rolls):
     # ----- Increment the counter if the roll is a 6 or 1 ----- #
     if dice_roll == 6:
         num_rolls_6 += 1
-    
+
     elif dice_roll == 1:
         num_rolls_1 += 1
 
     # ----- Check if two 6s have been rolled consecutively ----- #
     if prev_roll == 6 and dice_roll == 6:
         consecutive_6s += 1
-    
+
 
     prev_roll = dice_roll
 
